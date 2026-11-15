@@ -1,0 +1,8 @@
+"""Registro de la aplicación de dominio patrimonial."""
+from django.apps import AppConfig
+
+
+class PatrimonioConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "patrimonio"
+    verbose_name = "Patrimonio"

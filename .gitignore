@@ -1,0 +1,13 @@
+# Archivos locales de Python y Django
+__pycache__/
+*.py[cod]
+*.sqlite3
+.venv/
+venv/
+.env
+
+# Archivos generados por herramientas y editores
+.pytest_cache/
+.coverage
+.vscode/
+.idea/
